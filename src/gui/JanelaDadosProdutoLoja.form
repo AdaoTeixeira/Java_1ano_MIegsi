@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="buttonGuardar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="buttonFechar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lableFamilia" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lableCarateristicas" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelModelo" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelMarca" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelCodigoBarras" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelPreco" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="labelDisponibilidade" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="textFieldCodigoBarras" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="textFieldMarca" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="textFieldModelo" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="textFieldCarateristicas" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="textFieldFamilia" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="textFieldPreco" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="checkBoxDisponibilidade" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="textFieldCodigoBarras" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelCodigoBarras" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="labelMarca" min="-2" max="-2" attributes="0"/>
+                  <Component id="textFieldMarca" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelModelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textFieldModelo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lableCarateristicas" min="-2" max="-2" attributes="0"/>
+                  <Component id="textFieldCarateristicas" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lableFamilia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textFieldFamilia" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="textFieldPreco" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelPreco" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="labelDisponibilidade" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="checkBoxDisponibilidade" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="buttonGuardar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="buttonFechar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="labelCodigoBarras">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xf3;digo Barras:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textFieldCodigoBarras">
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelMarca">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Marca:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textFieldMarca">
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelModelo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modelo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textFieldModelo">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lableCarateristicas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Carateristicas:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textFieldCarateristicas">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lableFamilia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fam&#xed;lia:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textFieldFamilia">
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonGuardar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Guardar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonGuardarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonFechar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fechar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonFecharActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textFieldPreco">
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelPreco">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pre&#xe7;o:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelDisponibilidade">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Disponibilidade:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="checkBoxDisponibilidade">
+    </Component>
+  </SubComponents>
+</Form>
